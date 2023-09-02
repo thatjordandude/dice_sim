@@ -18,7 +18,7 @@ time.sleep(2)
 # Rolls chosen dice
 def roll_dice():
     result = random.randint(1, int(sides))
-    print('You rolled:', result)
+    print('You rolled a:', result)
     if int(sides) == 20:
         if result == 1:
             print('Critical fail!')
